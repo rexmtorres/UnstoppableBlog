@@ -22,7 +22,8 @@ body
 body a
 {
     text-decoration: none;
-    color: #404040;    
+    color: #0d7cc5;
+    /* color: #404040;     */
     transition: color .2s linear, background-color .2s linear, border-color .2s linear;
 }
 
@@ -820,6 +821,11 @@ body.open .site-content
     background-color: #F1F1F1;
     color: #404040;
     padding: 40px 40px 40px 40px;
+}
+
+.team-holder .member.one img.crypto-bullet {
+    width: 16px;
+    height: 16px;
 }
 
 .team-holder .member.one img 
